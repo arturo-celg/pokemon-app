@@ -29,7 +29,7 @@ const Navbar = () => {
       {/* Toolbar alinea los elementos horizontalmente */}
       <Toolbar>
         {/* Ícono de pokeball con margen derecho (mr=margin-right, 2=16px) */}
-        <CatchingPokemonIcon sx={{ mr: 2 }} />
+        <CatchingPokemonIcon sx={{ mr: 2, transform: 'rotate(180deg)' }} />
         
         {/* Typography renderiza texto con estilos de MUI */}
         {/* variant="h6" = tamaño de título mediano */}
